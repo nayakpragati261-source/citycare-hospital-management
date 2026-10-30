@@ -1,0 +1,10 @@
+package com.citycare.hospital.model
+
+enum class NotificationType {
+    APPOINTMENT_SCHEDULED,
+    APPOINTMENT_COMPLETED,
+    MEDICAL_TEST_COMPLETED,
+    PRESCRIPTION_ADDED,
+    PATIENT_REGISTERED,
+    PENDING_APPOINTMENT
+}
